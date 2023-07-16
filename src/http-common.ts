@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "https://localhost:7143/api",
+  baseURL: "https://librarymsbackend.azurewebsites.net/api",
   headers: {
     "Content-type": "application/json"
   }

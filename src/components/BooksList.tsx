@@ -108,6 +108,12 @@ export default function BookList() {
                         </div>
                         <div>
                             <label>
+                                <strong>Author:</strong>
+                            </label>{" "}
+                            {currentBook.author }
+                        </div>
+                        <div>
+                            <label>
                                 <strong>Description:</strong>
                             </label>{" "}
                             {currentBook.description}
@@ -118,6 +124,7 @@ export default function BookList() {
                             </label>{" "}
                             {currentBook.price }
                         </div>
+                        
 
                         <Link
                             to={"/books/" + currentBook.id}
